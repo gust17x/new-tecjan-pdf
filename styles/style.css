@@ -250,17 +250,156 @@ input[type=number] {
     cursor: pointer;
     padding: .4vw;
     border: .1vw solid #222;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px #444;
+}
+
+.btnGenerate-pdf:hover {
+    background-color: #222;
+    color: #fff;
 }
 
 /* max-width 1100px */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1024px) {
     .content {
         margin-top: 3%;
         padding: 5px;
-        max-width: 500px;
+        max-width: 650px;
     }
+
+    .box {
+        margin: .7vw 0;
+        padding: .6vw;
+        border: .1vw solid #333;
+    }
+
+
+    /* header */
+.logo a {
+    font-size: 2vw;
+    color: #222;
+}
+
+.logo p {
+    font-size: .9vw;
+} 
+
+.infor-loja h4{
+    font-size: 1.1vw;
+}
+
+.infor-loja p {
+    font-size: .9vw;
+}
+
+.data-hours {
+    font-size: 1.2vw;
+}
+
+/* bx-1 */
+
+.bx-1 {
+    gap: 3px;
+}
+
+.bx-1 label {
+    font-size: 1.3vw;
+}
+
+.bx-1 label input {
+    font-size: 1.2vw;
+    width: 95%;
+}
+
+/* bx-2 */
+
+.duble-input {
+    display: flex;
+    gap: 5px;
+}
+
+.duble-input label {
+    font-size: 1.3vw;
+}
+
+.duble-input label input {
+    font-size: 1.2vw;
+    width: 95%;
+}
+
+.checkbox label {
+    font-size: 1.3vw;
+}
+
+.checkbox label input {
+    width: 1.2vw;
+}
+
+
+/* bx-3 */
+
+.relatorio h2 {
+    font-size: 1.3vw;
+}
+
+.relatorio input {
+    font-size: 1.2vw;
+}
+
+.senha label {
+    font-size: 1.5vw;
+}
+
+.senha input {
+    font-size: 2.2vw;
+    width: 70%;
+}
+
+.senha-padrao p {
+    font-size: 1.2vw;
+}
+
+.senha-padrao form input {
+    width: 2vw;
+    height: 2vw;
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+/* bx-4 */
+
+.bx-4 form label {
+    font-size: 1.3vw;
+}
+
+.bx-4 form input {
+    padding: 1px;
+    margin: 2px;
+    width: 90%;
+    font-size: 1.3vw;
+}
+
+/* bx-5 */
+.bx-5 p {
+    font-size: 1.1vw;
+    padding: 2px;
+}
+
+.bx-6 p {
+    font-size: 1.1vw;
+    padding: 2px;
+}
+
+.btnGenerate-pdf {
+    font-size: 1.3vw;
+    margin: 1vw 0;
+    cursor: pointer;
+    padding: .3vw;
+    border: .1vw solid #222;
+    border-radius: 10px;
+}
+
 }
 
 /* max-width 800px */
@@ -275,7 +414,7 @@ input[type=number] {
 
 @media screen and (max-width: 525px) {
     .content {
-        max-width: 350px;
+        max-width: 410px;
     }
 
     .box {
@@ -330,7 +469,7 @@ input[type=number] {
 
 .bx-1 label input {
     font-size: 2vw;
-    width: 90%;
+    width: 98%;
 }
 
 /* bx-2 */
@@ -375,7 +514,7 @@ input[type=number] {
 
 .senha input {
     font-size: 2vw;
-    width: 60%;
+    width: 70%;
 }
 
 .senha-padrao p {
@@ -384,8 +523,8 @@ input[type=number] {
 
 
 .senha-padrao form input {
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 4vw;
+    height: 4vw;
     font-size: 2vw;
     text-align: center;
 }

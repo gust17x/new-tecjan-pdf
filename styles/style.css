@@ -427,8 +427,141 @@ input[type=number] {
 
 /* max-width 300px */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 375px) {
     .content {
-        max-width: 200px;
+        max-width: 360px;
     }
+
+    .box {
+        margin: 1.5vw 0;
+        padding: 2.2vw;
+        border: .1vw solid #333;
+    }
+
+
+    /* header */
+.logo a {
+    font-size: 5.4vw;
+    color: #222;
+}
+
+.logo p {
+    font-size: 2vw;
+} 
+
+.infor-loja h4{
+    font-size: 2.2vw;
+}
+
+.infor-loja p {
+    font-size: 2vw;
+}
+
+.data-hours {
+    font-size: 2.2vw;
+}
+
+/* bx-1 */
+
+.bx-1 {
+    gap: 3px;
+}
+
+.bx-1 label {
+    font-size: 3vw;
+}
+
+.bx-1 label input {
+    font-size: 2.5vw;
+    width: 95%;
+}
+
+/* bx-2 */
+
+.duble-input {
+    display: flex;
+    gap: 5px;
+}
+
+.duble-input label {
+    font-size: 3vw;
+}
+
+.duble-input label input {
+    font-size: 2.3vw;
+    width: 95%;
+}
+
+.checkbox label {
+    font-size: 2.1vw;
+}
+
+.checkbox label input {
+    width: 2.5vw;
+}
+
+
+/* bx-3 */
+
+.relatorio h2 {
+    font-size: 2vw;
+}
+
+.relatorio input {
+    font-size: 2.3vw;
+}
+
+.senha label {
+    font-size: 3vw;
+}
+
+.senha input {
+    font-size: 2.3vw;
+    width: 70%;
+}
+
+.senha-padrao p {
+    font-size: 2.3vw;
+}
+
+.senha-padrao form input {
+    width: 5vw;
+    height: 5vw;
+    font-size: 2vw;
+    text-align: center;
+}
+
+/* bx-4 */
+
+.bx-4 form label {
+    font-size: 2.8vw;
+}
+
+.bx-4 form input {
+    padding: 1px;
+    margin: 2px;
+    width: 90%;
+    font-size: 2.5vw;
+}
+
+/* bx-5 */
+.bx-5 p {
+    font-size: 2.8vw;
+    padding: 2px;
+}
+
+.bx-6 p {
+    font-size: 2.8vw;
+    padding: 2px;
+}
+
+.btnGenerate-pdf {
+    font-size: 4vw;
+    margin: 1vw 0;
+    cursor: pointer;
+    padding: 1vw;
+    border: .1vw solid #222;
+    border-radius: 10px;
+}
+
 }

@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* geral */
+body {
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 1px 2px;
+    border-bottom: .1vw solid #222;
+}
+
+.box {
+    margin: .2vw 0;
+    padding: .3vw;
+    border: .1vw solid #333;
+}
+
+/* content */
+.content {
+    margin-top: 3%;
+    padding: 5px;
+    max-width: 600px;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.logo a {
+    font-size: 1.4vw;
+    color: #222;
+}
+
+.logo a span {
+    color: orange;
+}
+
+.logo p {
+    font-size: .6vw;
+} 
+
+.infor-loja h4{
+    font-size: .7vw;
+}
+
+.infor-loja p {
+    font-size: .7vw;
+}
+
+.infor-loja p i {
+    color: green;
+}
+
+.data-hours {
+    font-size: .7vw;
+}
+
+
+/* bx-1 */
+
+.bx-1 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3px;
+}
+
+.bx-1 label {
+    display: flex;
+    flex-direction: column;
+    font-size: .8vw;
+}
+
+.bx-1 label input {
+    font-size: .9vw;
+    width: 90%;
+}
+
+/* bx-2 */
+
+.bx-2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.duble-input {
+    display: flex;
+    gap: 5px;
+}
+
+.duble-input label {
+    display: flex;
+    flex-direction: column;
+    font-size: .8vw;
+}
+
+.duble-input label input {
+    font-size: 1vw;
+    width: 60%;
+}
+.checkbox {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+
+.checkbox label {
+    align-items: center;
+    display: flex;
+    gap: 2px;
+    cursor: pointer;
+    font-size: .7vw;
+}
+
+.checkbox label input {
+    width: 1vw;
+}
+
+/* bx-3 */
+
+.bx-3 {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    align-items: center;
+}
+
+.relatorio h2 {
+    font-size: .8vw;
+}
+
+.relatorio textarea {
+    padding: .2vw;
+    max-width: 3vw;
+    min-width: 100%;
+    min-height: 4vw;
+    max-height: 4vw;
+    margin: 5px 0;
+    font-size: .8vw;
+
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+     hyphens: auto;
+
+}
+
+.senha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.senha label {
+    font-size: .8vw;
+}
+
+.senha input {
+    font-size: .8vw;
+    width: 60%;
+}
+
+.senha-padrao p {
+    font-size: .7vw;
+}
+
+.senha-padrao {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.senha-padrao form {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: .5vw;
+    width: 50%;
+}
+
+.senha-padrao form input {
+    border-radius: 50%;
+    border: .1vw solid #111;
+    width: 1.5vw;
+    height: 1.5vw;
+    font-size: 1vw;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+/* bx-4 */
+.bx-4 {
+    display: grid;
+    grid-template-columns: 20% 40% 20% 20%;
+}
+
+.bx-4 form label {
+    font-size: .9vw;
+}
+
+.bx-4 form input {
+    padding: 2px;
+    margin: 2px;
+    width: 90%;
+    font-size: 1vw;
+}
+
+/* bx-5 */
+.bx-5 p {
+    font-size: .8vw;
+}
+
+.bx-6 p {
+    font-size: .8vw;
+}
+
+.btnGenerate-pdf {
+    font-size: .9vw;
+    margin: 1vw 0;
+    cursor: pointer;
+    padding: .4vw;
+    border: .1vw solid #222;
+    border-radius: 10px;
+}
+
+/* max-width 1100px */
+
+@media screen and (max-width: 1100px) {
+    .content {
+        margin-top: 3%;
+        padding: 5px;
+        max-width: 500px;
+    }
+}
+
+/* max-width 800px */
+
+@media screen and (max-width: 800px) {
+    .content {
+        max-width: 350px;
+    }
+}
+
+/* max-width 525px */
+
+@media screen and (max-width: 525px) {
+    .content {
+        max-width: 350px;
+    }
+
+    .box {
+        margin: 1.5vw 0;
+        padding: 2.2vw;
+        border: .1vw solid #333;
+    }
+
+
+    /* header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.logo a {
+    font-size: 4.4vw;
+    color: #222;
+}
+
+.logo a span {
+    color: orange;
+}
+
+.logo p {
+    font-size: 1.7vw;
+} 
+
+.infor-loja h4{
+    font-size: 1.8vw;
+}
+
+.infor-loja p {
+    font-size: 1.7vw;
+}
+
+.data-hours {
+    font-size: 1.8vw;
+}
+
+/* bx-1 */
+
+.bx-1 {
+    gap: 3px;
+}
+
+.bx-1 label {
+    font-size: 2.2vw;
+}
+
+.bx-1 label input {
+    font-size: 2vw;
+    width: 90%;
+}
+
+/* bx-2 */
+
+.duble-input {
+    display: flex;
+    gap: 5px;
+}
+
+.duble-input label {
+    font-size: 2.1vw;
+}
+
+.duble-input label input {
+    font-size: 1.8vw;
+    width: 80%;
+}
+
+.checkbox label {
+    font-size: 1.7vw;
+}
+
+.checkbox label input {
+    width: 2vw;
+}
+
+
+/* bx-3 */
+
+.relatorio h2 {
+    font-size: 1.8vw;
+}
+
+.relatorio input {
+    font-size: 2vw;
+
+}
+
+.senha label {
+    font-size: 2vw;
+}
+
+.senha input {
+    font-size: 2vw;
+    width: 60%;
+}
+
+.senha-padrao p {
+    font-size: 1.8vw;
+}
+
+
+.senha-padrao form input {
+    width: 2.5vw;
+    height: 2.5vw;
+    font-size: 2vw;
+    text-align: center;
+}
+
+/* bx-4 */
+
+.bx-4 form label {
+    font-size: 2vw;
+}
+
+.bx-4 form input {
+    padding: 2px;
+    margin: 2px;
+    width: 90%;
+    font-size: 2vw;
+}
+
+/* bx-5 */
+.bx-5 p {
+    font-size: 2vw;
+    padding: 2px;
+}
+
+.bx-6 p {
+    font-size: 2vw;
+    padding: 2px;
+}
+
+.btnGenerate-pdf {
+    font-size: 4vw;
+    margin: 1vw 0;
+    cursor: pointer;
+    padding: 1vw;
+    border: .1vw solid #222;
+    border-radius: 10px;
+}
+
+}
+
+/* max-width 300px */
+
+@media screen and (max-width: 300px) {
+    .content {
+        max-width: 200px;
+    }
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FORM TEC-JAN</title>
+
+    <!-- SCRIPT.JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- FONT AWERSOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- SCRIPT.SRC -->
+    <script src="./js/script.js" defer></script>
+
+    <!-- GOOGLE FONT - ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+    
+    <section class="content" backtop="10mm" backbottom="2mm" backleft="1mm" backright="1mm">
+
+        <div class="header">
+            
+            <nav class="logo">
+               <a href="https://tecjan.negocio.site/" target="_blank">TEC-<span>JAN</span></a>
+               <p>ASSISTÊNCIA E TECNOLOGIA</p>
+            </nav>
+            
+            <nav class="infor-loja">
+                <h4>Av: Manoel athaide, 883c</h4>
+                <h4>São gonçalo</h4>
+                <p>(38) 992152842 <i class="fa-brands fa-whatsapp"></i> </p>
+            </nav>
+
+            <p class="data-hours"></p>
+
+        </div>
+
+        <div class="box bx-1">
+
+                <label>
+                    Nome: <input type="text">
+                </label>
+                
+
+                <label>
+                    Telefone: <input type="number">
+                </label>
+            
+
+                <label>
+                    Cidade: <input type="text">
+                </label>
+
+                
+                <label>
+                    Bairro: <input type="text">
+                </label>
+
+
+                <label>
+                    Rua: <input type="text">
+                </label>
+
+
+                <label>
+                    Numero: <input type="text">
+                </label>
+                  
+
+            <label>
+                Email: <input type="email">
+            </label>
+            
+
+        </div>
+
+        <div class="box bx-2">
+            
+                <nav class="duble-input">
+
+                    <label>
+                    Modelo: <input type="text">
+                    </label>
+
+                    <label>
+                    Imei: <input type="text">
+                    </label>
+
+                </nav>
+
+                <nav class="checkbox">
+                    <label>
+                        <input type="checkbox" name="" id=""> Arranhado
+                    </label>
+                    
+                    <label>
+                        <input type="checkbox" name="" id=""> Trincado
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="" id=""> Desligado
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="" id=""> Sem bateria
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="" id=""> Sem cartão
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="" id=""> Sem ship
+                    </label>
+                </nav>
+
+        </div>
+
+        <div class="box bx-3">
+
+            <div class="relatorio">
+                <h2>Defeito relatado pelo cliente:</h2>
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+            </div>
+
+                <!-- <hr> -->
+
+            <div class="senha">
+
+                <label> Senha: </label>
+            
+                <input type="text">
+                
+            </div>
+
+            <div class="senha-padrao" id="bx-3">
+                <p>Preencha os circulos com numeros em sequencia conforme a senha padrão do seu celular</p>
+            <form>
+                <input type="number" max="1">
+                <input type="number" max="1">
+                <input type="number" max="1">
+                <input type="number" max="1">
+                <input type="number" max="1">
+                <input type="number" max="1">
+                <input type="number" max="1">
+                <input type="number" max="1">
+                <input type="number" max="1">
+            </form>
+            </div>
+
+        </div>
+
+        <div class="box bx-4">
+            <form>
+                <label>Qnt.</label>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </form>
+
+            <form>
+                <label>Produtos/Serviço</label>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </form>
+
+            <form>
+                <label>Valor unitário</label>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </form>
+
+            <form>
+                <label>Total</label>
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </form>
+
+        </div>
+
+        <div class="box bx-5" class="avoid-page-break">
+            <p>A garantia de 30 dias somente de peça trocada ou serviço descrito nesta O.S.
+            O aparelho perderá a garantia imediatamente se violado o lacre da loja ou em caso de Mau Uso.
+            A não retirada do aparelho no prazo de 30 dias corridos, serão acrescentados <span>30%</span>  no valor dos serviços prestados, apos 60 dias ocorridos implicarão na venda do mesmo para pagamento de gastos.
+            <br>
+            (art. 06. item 03 código de defesa do consulmidor.  
+            </p>
+        </div>
+
+        <div class="box bx-6">
+            <p>Concordo com todos os termos do contrato e afirmo ser verdade as informações dadas acima por mim </p>
+            <input type="text">
+        </div>
+       
+    </section>
+
+    <button class="btnGenerate-pdf">Gerar pdf</button>
+
+</body>
+</html>
+
+
